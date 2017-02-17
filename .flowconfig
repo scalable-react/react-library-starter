@@ -3,6 +3,7 @@
 
 [include]
 ./src/
+./example/app
 
 [libs]
 config/flow-typed/npm
