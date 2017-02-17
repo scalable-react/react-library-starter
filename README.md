@@ -28,3 +28,5 @@ Included in this setup is a setup to do just that.
 2.  Within the example/app directory, you will find a setup that you can use to test your app.  Import your components from `components` and use them within the App.js file.
 3. Run `npm run start` and navigate to `http://localhost:3000 to see your app`
 
+## Example usage
+- [Grommet CMS Content Blocks](https://github.com/grommet/grommet-cms-content-blocks)
