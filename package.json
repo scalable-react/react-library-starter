@@ -1,0 +1,39 @@
+{
+  "name": "react-library-starter",
+  "version": "0.0.1",
+  "description": "A react library starter project",
+  "main": "dist/index.js",
+  "license": "APACHE",
+  "scripts": {
+    "lint": "eslint src",
+    "build": "webpack",
+    "prepublish": "rimraf dist && npm run build"
+  },
+  "dependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^7.1.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-add-module-exports": "^0.2.0",
+    "babel-plugin-flow-react-proptypes": "^0.20.0",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "flow-bin": "^0.37.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "rimraf": "^2.5.4",
+    "webpack": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-flowtype": "^2.29.2",
+    "eslint-plugin-flowtype-errors": "^2.0.3"
+  }
+}

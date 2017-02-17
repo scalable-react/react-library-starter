@@ -1,0 +1,27 @@
+{
+  "name": "react-libary-starter-example",
+  "version": "1.0.0",
+  "description": "An example for testing your new library",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "lint": "eslint src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.14.1",
+    "eslint-plugin-react": "^6.9.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
