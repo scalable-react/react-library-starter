@@ -1,3 +1,6 @@
+__NOTICE:__
+Just like with the boilerplate project, we are working on rewriting this with TypeScript.  We'd still love for you to use this and submit PRs, so have at it!
+
 # React Library Starter
 This project can be used to create your next React Component library.  It's configured to give you a starting place for publishing react components to NPM.
 
