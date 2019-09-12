@@ -1,4 +1,5 @@
 # React Library Starter
+
 This project can be used to create your next React Component library.  It's configured to give you a starting place for publishing react components to NPM.
 
 ## Getting Started
